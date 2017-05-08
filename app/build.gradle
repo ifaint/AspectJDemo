@@ -2,15 +2,6 @@ import org.aspectj.bridge.IMessage
 import org.aspectj.bridge.MessageHandler
 import org.aspectj.tools.ajc.Main
 
-buildscript {
-    repositories {
-        mavenCentral()
-    }
-    dependencies {
-        classpath 'org.aspectj:aspectjtools:1.8.9'
-    }
-}
-
 
 
 apply plugin: 'com.android.application'
@@ -43,7 +34,6 @@ dependencies {
     compile 'com.android.support:appcompat-v7:25.2.0'
     testCompile 'junit:junit:4.12'
     compile project(':aspect')
-//    compile 'com.safframework:saf-aop:1.1.0'
 }
 
 
