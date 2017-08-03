@@ -5,7 +5,6 @@ import org.aspectj.tools.ajc.Main
 
 
 apply plugin: 'com.android.application'
-//apply plugin: 'com.hujiang.android-aspectjx'
 
 android {
     compileSdkVersion 25
@@ -35,7 +34,6 @@ dependencies {
     testCompile 'junit:junit:4.12'
     compile project(':aspect')
 }
-
 
 final def log = project.logger
 final def variants = project.android.applicationVariants
@@ -79,5 +77,4 @@ variants.all { variant ->
         }
     }
 }
-
 
