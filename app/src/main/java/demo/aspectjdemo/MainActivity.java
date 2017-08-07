@@ -65,6 +65,8 @@ public class MainActivity extends AppCompatActivity {
 //                startActivity(intent);
             }
         });
+        int result = MathKit.square(2);
+        int result2 = MathKit.square(result);
     }
 
 
