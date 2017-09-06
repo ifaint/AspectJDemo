@@ -66,7 +66,8 @@ public class MainActivity extends AppCompatActivity {
             }
         });
         int result = MathKit.square(2);
-        int result2 = MathKit.square(result);
+//        int result2 = JNIAlgorithm.sum(result,5);
+        Log.d("","result is:"+result);
     }
 
 

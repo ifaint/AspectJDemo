@@ -13,7 +13,7 @@ extern "C" {
  * Signature: (I)I
  */
 JNIEXPORT jint JNICALL Java_demo_aspectjdemo_MathKit_square
-  (JNIEnv *, jclass, jint);
+  (JNIEnv *, jint);
 
 #ifdef __cplusplus
 }
